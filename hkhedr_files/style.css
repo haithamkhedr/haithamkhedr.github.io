@@ -48,6 +48,7 @@ html, body {
 }
 .img-blur2{
   filter: blur(2px);
+  margin : -5px -10px -10px -5px;
 }
 /* Medium image loading tricks end*/
 
