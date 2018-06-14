@@ -12,9 +12,9 @@ html, body {
   position: relative
 }
 .bg1 {
-  background-image: url('nthu.png');
+  background-image: url('UMD_aerial.jpg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: auto 110%;
 }
 .bg2 {
@@ -45,6 +45,9 @@ html, body {
 }
 .img-small {
   filter: blur(50px);
+}
+.img-large{
+  filter: blur(2px);
 }
 /* Medium image loading tricks end*/
 
