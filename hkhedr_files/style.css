@@ -46,7 +46,7 @@ html, body {
 .img-small {
   filter: blur(50px);
 }
-.img-large{
+.img-blur2{
   filter: blur(2px);
 }
 /* Medium image loading tricks end*/
