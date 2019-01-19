@@ -24,7 +24,7 @@ redirect_from:
 # News
 <ul class="font-monospace">
 	<li>
-		Our paper 'Formal Verification of Neural Network Controlled Autonomous Systems' is accepted for publication in HSCC 2019
+		Our paper on Formal Verification of Neural Network Controlled Autonomous Systems is accepted for publication in HSCC 2019
 	</li>
 	
 	<li>
