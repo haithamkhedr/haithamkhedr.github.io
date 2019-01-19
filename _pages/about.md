@@ -24,6 +24,10 @@ redirect_from:
 # News
 <ul class="font-monospace">
 	<li>
+		Our paper 'Formal Verification of Neural Network Controlled Autonomous Systems' is accepted for publication in HSCC 2019
+	</li>
+	
+	<li>
 		I mentored a team in the "<a href="https://mcwic.cs.umd.edu/events/techresearch">Tech + Research: Welcoming Women to Computing Research</a>"(in collaboration with Technica, the largest all-women hackathon in the nation)
 	</li>
 </ul>
