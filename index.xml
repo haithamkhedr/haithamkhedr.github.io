@@ -33,9 +33,17 @@
     </item>
     
     <item>
-      <title>Fast BATLLNN: Fast Box Analysis of Two-Level Lattice Neural Networks</title>
+      <title>CertiFair: A Framework for Certified Global Fairness of Neural Networks</title>
+      <link>https://hkhedr.com/publication/certifair/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkhedr.com/publication/certifair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast BATLLNN: Fast Box Analysis of Two-Level Lattice Neural Networks (HSCC 22&#39;)</title>
       <link>https://hkhedr.com/publication/fastbattlnn/</link>
-      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
       <guid>https://hkhedr.com/publication/fastbattlnn/</guid>
       <description></description>
     </item>
