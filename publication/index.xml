@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title>CertiFair: A Framework for Certified Global Fairness of Neural Networks</title>
+      <title>BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic</title>
+      <link>https://hkhedr.com/publication/bernn/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hkhedr.com/publication/bernn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CertiFair: A Framework for Certified Global Fairness of Neural Networks (AAAI 23&#39;)</title>
       <link>https://hkhedr.com/publication/certifair/</link>
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
       <guid>https://hkhedr.com/publication/certifair/</guid>

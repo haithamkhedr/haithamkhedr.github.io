@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="We consider the problem of whether a Neural Network (NN) model satisfies global individual fairness. Individual Fairness suggests that similar individuals with respect to a certain task are to be treated similarly by the decision model. In this work, we have two main objectives. The first is to construct a verifier which checks whether the fairness property holds for a given NN in a classification task or provide a counterexample if it is violated, i.e., the model is fair if all similar individuals are classified the same, and unfair if a pair of similar individuals are classified differently. To that end, We construct a sound and complete verifier that verifies global individual fairness properties of ReLU NN classifiers using distance-based similarity metrics. The second objective of this paper is to provide a method for training provably fair NN classifiers from unfair (biased) data. We propose a fairness loss during training that enforces fair outcomes for similar individuals, we then provide provable bounds on the fairness of the resulting NN. We run experiments on commonly used fairness datasets that are publicly available." />
+  <meta name="description" content="In this paper, we present BERN-NN as an efficient tool to perform bound propagation of Neural Networks (NNs). Bound propagation is a critical step in wide range of NN model checkers and reachability analysis tools. Given a bounded input set, bound propagation algorithms aim to compute tight bounds on the output of the NN. So far, linear and convex optimizations have been used to perform bound propagation. Since neural networks are highly non-convex, state-of-the-art bound propagation techniques suffer from introducing large errors. To circumvent such drawback, BERN-NN approximates the bounds of each neuron using a class of polynomials called Bernstein polynomials. Bernstein polynomials enjoy several interesting properties that allow BERN-NN to obtain tighter bounds compared to those relying on linear and convex approximations. BERN-NN is efficiently parallelized on graphic processing units (GPUs). Extensive numerical results show that bounds obtained by BERN-NN are orders of magnitude tighter than those obtained by state-of-the-art verifiers such as linear programming and linear interval arithmetic. Moreoveer, BERN-NN is both faster and produces tighter outputs compared to convex programming approaches like alpha-CROWN." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://hkhedr.com/publication/certifair/" />
+  <link rel="alternate" hreflang="en-us" href="https://hkhedr.com/publication/bernn/" />
 
   
 
@@ -280,7 +280,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="https://hkhedr.com/publication/certifair/" />
+  <link rel="canonical" href="https://hkhedr.com/publication/bernn/" />
 
   
   
@@ -297,9 +297,9 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Haitham Khedr" />
-  <meta property="og:url" content="https://hkhedr.com/publication/certifair/" />
-  <meta property="og:title" content="CertiFair: A Framework for Certified Global Fairness of Neural Networks (AAAI 23&#39;) | Haitham Khedr" />
-  <meta property="og:description" content="We consider the problem of whether a Neural Network (NN) model satisfies global individual fairness. Individual Fairness suggests that similar individuals with respect to a certain task are to be treated similarly by the decision model. In this work, we have two main objectives. The first is to construct a verifier which checks whether the fairness property holds for a given NN in a classification task or provide a counterexample if it is violated, i.e., the model is fair if all similar individuals are classified the same, and unfair if a pair of similar individuals are classified differently. To that end, We construct a sound and complete verifier that verifies global individual fairness properties of ReLU NN classifiers using distance-based similarity metrics. The second objective of this paper is to provide a method for training provably fair NN classifiers from unfair (biased) data. We propose a fairness loss during training that enforces fair outcomes for similar individuals, we then provide provable bounds on the fairness of the resulting NN. We run experiments on commonly used fairness datasets that are publicly available." /><meta property="og:image" content="https://hkhedr.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
+  <meta property="og:url" content="https://hkhedr.com/publication/bernn/" />
+  <meta property="og:title" content="BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic | Haitham Khedr" />
+  <meta property="og:description" content="In this paper, we present BERN-NN as an efficient tool to perform bound propagation of Neural Networks (NNs). Bound propagation is a critical step in wide range of NN model checkers and reachability analysis tools. Given a bounded input set, bound propagation algorithms aim to compute tight bounds on the output of the NN. So far, linear and convex optimizations have been used to perform bound propagation. Since neural networks are highly non-convex, state-of-the-art bound propagation techniques suffer from introducing large errors. To circumvent such drawback, BERN-NN approximates the bounds of each neuron using a class of polynomials called Bernstein polynomials. Bernstein polynomials enjoy several interesting properties that allow BERN-NN to obtain tighter bounds compared to those relying on linear and convex approximations. BERN-NN is efficiently parallelized on graphic processing units (GPUs). Extensive numerical results show that bounds obtained by BERN-NN are orders of magnitude tighter than those obtained by state-of-the-art verifiers such as linear programming and linear interval arithmetic. Moreoveer, BERN-NN is both faster and produces tighter outputs compared to convex programming approaches like alpha-CROWN." /><meta property="og:image" content="https://hkhedr.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" />
     <meta property="twitter:image" content="https://hkhedr.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -330,16 +330,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://hkhedr.com/publication/certifair/"
+    "@id": "https://hkhedr.com/publication/bernn/"
   },
-  "headline": "CertiFair: A Framework for Certified Global Fairness of Neural Networks (AAAI 23')",
+  "headline": "BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic",
   
   "datePublished": "2022-05-24T00:00:00Z",
   "dateModified": "2022-05-24T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Haitham Khedr"
+    "name": "Wael Fatnassi"
   },
   
   "publisher": {
@@ -350,7 +350,7 @@
       "url": "https://hkhedr.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "We consider the problem of whether a Neural Network (NN) model satisfies global individual fairness. Individual Fairness suggests that similar individuals with respect to a certain task are to be treated similarly by the decision model. In this work, we have two main objectives. The first is to construct a verifier which checks whether the fairness property holds for a given NN in a classification task or provide a counterexample if it is violated, i.e., the model is fair if all similar individuals are classified the same, and unfair if a pair of similar individuals are classified differently. To that end, We construct a sound and complete verifier that verifies global individual fairness properties of ReLU NN classifiers using distance-based similarity metrics. The second objective of this paper is to provide a method for training provably fair NN classifiers from unfair (biased) data. We propose a fairness loss during training that enforces fair outcomes for similar individuals, we then provide provable bounds on the fairness of the resulting NN. We run experiments on commonly used fairness datasets that are publicly available."
+  "description": "In this paper, we present BERN-NN as an efficient tool to perform bound propagation of Neural Networks (NNs). Bound propagation is a critical step in wide range of NN model checkers and reachability analysis tools. Given a bounded input set, bound propagation algorithms aim to compute tight bounds on the output of the NN. So far, linear and convex optimizations have been used to perform bound propagation. Since neural networks are highly non-convex, state-of-the-art bound propagation techniques suffer from introducing large errors. To circumvent such drawback, BERN-NN approximates the bounds of each neuron using a class of polynomials called Bernstein polynomials. Bernstein polynomials enjoy several interesting properties that allow BERN-NN to obtain tighter bounds compared to those relying on linear and convex approximations. BERN-NN is efficiently parallelized on graphic processing units (GPUs). Extensive numerical results show that bounds obtained by BERN-NN are orders of magnitude tighter than those obtained by state-of-the-art verifiers such as linear programming and linear interval arithmetic. Moreoveer, BERN-NN is both faster and produces tighter outputs compared to convex programming approaches like alpha-CROWN."
 }
 </script>
 
@@ -366,11 +366,11 @@
 
 
 
-  <title>CertiFair: A Framework for Certified Global Fairness of Neural Networks (AAAI 23&#39;) | Haitham Khedr</title>
+  <title>BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic | Haitham Khedr</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9308c09929fc8250702a2329769cd45d" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a2967581496236b781646bba916e40aa" >
 
   
   
@@ -625,7 +625,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>CertiFair: A Framework for Certified Global Fairness of Neural Networks (AAAI 23&#39;)</h1>
+  <h1>BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic</h1>
 
   
 
@@ -642,8 +642,10 @@
   <div>
     
 
-  <span class="author-highlighted">
-      Haitham Khedr</span>, <span >
+  <span >
+      Wael Fatnassi</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span class="author-highlighted">
+      Haitham Khedr</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Valen Yamamoto</span>, <span >
       Yasser Shoukry</span>
   </div>
   
@@ -697,7 +699,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2205.09927" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2211.14438.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -729,7 +731,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We consider the problem of whether a Neural Network (NN) model satisfies global individual fairness. Individual Fairness suggests that similar individuals with respect to a certain task are to be treated similarly by the decision model. In this work, we have two main objectives. The first is to construct a verifier which checks whether the fairness property holds for a given NN in a classification task or provide a counterexample if it is violated, i.e., the model is fair if all similar individuals are classified the same, and unfair if a pair of similar individuals are classified differently. To that end, We construct a sound and complete verifier that verifies global individual fairness properties of ReLU NN classifiers using distance-based similarity metrics. The second objective of this paper is to provide a method for training provably fair NN classifiers from unfair (biased) data. We propose a fairness loss during training that enforces fair outcomes for similar individuals, we then provide provable bounds on the fairness of the resulting NN. We run experiments on commonly used fairness datasets that are publicly available.</p>
+    <p class="pub-abstract">In this paper, we present BERN-NN as an efficient tool to perform bound propagation of Neural Networks (NNs). Bound propagation is a critical step in wide range of NN model checkers and reachability analysis tools. Given a bounded input set, bound propagation algorithms aim to compute tight bounds on the output of the NN. So far, linear and convex optimizations have been used to perform bound propagation. Since neural networks are highly non-convex, state-of-the-art bound propagation techniques suffer from introducing large errors. To circumvent such drawback, BERN-NN approximates the bounds of each neuron using a class of polynomials called Bernstein polynomials. Bernstein polynomials enjoy several interesting properties that allow BERN-NN to obtain tighter bounds compared to those relying on linear and convex approximations. BERN-NN is efficiently parallelized on graphic processing units (GPUs). Extensive numerical results show that bounds obtained by BERN-NN are orders of magnitude tighter than those obtained by state-of-the-art verifiers such as linear programming and linear interval arithmetic. Moreoveer, BERN-NN is both faster and produces tighter outputs compared to convex programming approaches like alpha-CROWN.</p>
     
 
     
@@ -740,8 +742,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#3">
+              Preprint
             </a>
           </div>
         </div>
@@ -757,7 +759,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">CertiFair: A Framework for Certified Global Fairness of Neural Networks</div>
+          <div class="col-12 col-md-9">BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -789,7 +791,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://hkhedr.com/publication/certifair/&amp;text=CertiFair:%20A%20Framework%20for%20Certified%20Global%20Fairness%20of%20Neural%20Networks%20%28AAAI%2023&amp;#39;%29" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://hkhedr.com/publication/bernn/&amp;text=BERN-NN:%20Tight%20Bound%20Propagation%20For%20Neural%20Networks%20Using%20Bernstein%20Polynomial%20Interval%20Arithmetic" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -802,7 +804,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://hkhedr.com/publication/certifair/&amp;t=CertiFair:%20A%20Framework%20for%20Certified%20Global%20Fairness%20of%20Neural%20Networks%20%28AAAI%2023&amp;#39;%29" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://hkhedr.com/publication/bernn/&amp;t=BERN-NN:%20Tight%20Bound%20Propagation%20For%20Neural%20Networks%20Using%20Bernstein%20Polynomial%20Interval%20Arithmetic" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -815,7 +817,7 @@
       
       
       <li>
-        <a href="mailto:?subject=CertiFair:%20A%20Framework%20for%20Certified%20Global%20Fairness%20of%20Neural%20Networks%20%28AAAI%2023&amp;#39;%29&amp;body=https://hkhedr.com/publication/certifair/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=BERN-NN:%20Tight%20Bound%20Propagation%20For%20Neural%20Networks%20Using%20Bernstein%20Polynomial%20Interval%20Arithmetic&amp;body=https://hkhedr.com/publication/bernn/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -828,7 +830,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://hkhedr.com/publication/certifair/&amp;title=CertiFair:%20A%20Framework%20for%20Certified%20Global%20Fairness%20of%20Neural%20Networks%20%28AAAI%2023&amp;#39;%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://hkhedr.com/publication/bernn/&amp;title=BERN-NN:%20Tight%20Bound%20Propagation%20For%20Neural%20Networks%20Using%20Bernstein%20Polynomial%20Interval%20Arithmetic" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -841,7 +843,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=CertiFair:%20A%20Framework%20for%20Certified%20Global%20Fairness%20of%20Neural%20Networks%20%28AAAI%2023&amp;#39;%29%20https://hkhedr.com/publication/certifair/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=BERN-NN:%20Tight%20Bound%20Propagation%20For%20Neural%20Networks%20Using%20Bernstein%20Polynomial%20Interval%20Arithmetic%20https://hkhedr.com/publication/bernn/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -854,7 +856,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hkhedr.com/publication/certifair/&amp;title=CertiFair:%20A%20Framework%20for%20Certified%20Global%20Fairness%20of%20Neural%20Networks%20%28AAAI%2023&amp;#39;%29" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://hkhedr.com/publication/bernn/&amp;title=BERN-NN:%20Tight%20Bound%20Propagation%20For%20Neural%20Networks%20Using%20Bernstein%20Polynomial%20Interval%20Arithmetic" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -873,6 +875,12 @@
 
 
   
+  
+    
+
+
+
+
   
     
 
@@ -982,6 +990,12 @@
 
     </div>
   </div>
+
+
+  
+    
+
+
 
 
   
