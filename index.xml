@@ -33,7 +33,15 @@
     </item>
     
     <item>
-      <title>BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic</title>
+      <title>DeepBern-Nets: Taming the Complexity of Certifying Neural Networks using Bernstein Polynomial Activations and Precise Bound Propagation</title>
+      <link>https://hkhedr.com/publication/deepbernnets/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://hkhedr.com/publication/deepbernnets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic (HSCC 23&#39;)</title>
       <link>https://hkhedr.com/publication/bernn/</link>
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
       <guid>https://hkhedr.com/publication/bernn/</guid>

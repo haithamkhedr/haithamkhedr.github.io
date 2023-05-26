@@ -5,7 +5,7 @@
     <link>https://hkhedr.com/publication/</link>
       <atom:link href="https://hkhedr.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hkhedr.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title>BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic</title>
+      <title>DeepBern-Nets: Taming the Complexity of Certifying Neural Networks using Bernstein Polynomial Activations and Precise Bound Propagation</title>
+      <link>https://hkhedr.com/publication/deepbernnets/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://hkhedr.com/publication/deepbernnets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BERN-NN: Tight Bound Propagation For Neural Networks Using Bernstein Polynomial Interval Arithmetic (HSCC 23&#39;)</title>
       <link>https://hkhedr.com/publication/bernn/</link>
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
       <guid>https://hkhedr.com/publication/bernn/</guid>
