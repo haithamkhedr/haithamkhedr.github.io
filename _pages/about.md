@@ -10,16 +10,16 @@ redirect_from:
 
 # About me
 <p class="font-monospace" >
-  I am a PhD student in Electrical Engineering and Computer Science at UCI. I'm working on safety of AI controlled systems in <a href="https://rcpsl.eng.uci.edu">Resilient Cyber-physical systems</a> group, and advised by Prof.<a href="https://rcpsl.eng.uci.edu/yshoukry/">Yasser Shoukry</a>. 
+  I am a researcher at <a href="https://ai.meta.com/">AI at Meta</a> (FAIR), where I work on Computer Vision. Before that I completed my PhD in Electrical Engineering and Computer Science at UCI, working on Robustness and safety of NNs in the <a href="https://rcpsl.eng.uci.edu">Resilient Cyber-physical systems</a> group, and advised by Prof.<a href="https://rcpsl.eng.uci.edu/yshoukry/">Yasser Shoukry</a>. 
 
-</p>
+<!-- </p>
 <p class="font-monospace">
   	My research interests are the safety and security of Machine learning algorithms that are part of the decision making process in Autonomous Systems/Robotics. I'm also interested in Adversarial learning.
-</p>
-
+</p> -->
+<!-- 
 <p class="font-monospace">
 	Before coming to UCI, I spent a year at UMD working in the same group. I did my undergrad in Electrical and Computer Engineering at Ain Shams University. During my studies, I had the opportunity to do a couple of internships. After that I worked in industry for two years in the automotive and traffic safety fields.
-</p>
+</p> -->
 
 # News
 <ul class="font-monospace">
